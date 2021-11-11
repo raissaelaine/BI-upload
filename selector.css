@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(15, 94, 97);
+    text-align: center;
+}
+h1 {
+    color: palevioletred;
+    font-size: 2rem;
+    text-align: center;
+}
+h3 {
+    color:orange;
+    text-align: center;
+}
+P {
+    color: yellow;
+    font-size: 2rem;
+    text-align: center;
+}
+div p {
+    font-size: 2rem;
+    font-style: oblique;
+    background-color: purple;
+    text-align: center;
+}
+h5 {
+    color:salmon;
+}
+li {
+    color: rgb(2, 66, 30);
+    font-size: 30px;
+}
+.box {
+    background-color: rosybrown;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 4rem;
+    }
+    p {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 650px) {
+    div p {
+        font-size: 1rem;
+        font-style: oblique;
+        background-color: rosybrown;
+        text-align: center;
+    }
+}
